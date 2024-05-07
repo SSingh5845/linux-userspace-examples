@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/analog/linux-userspace-examples/i2c_example_linux/src/i2c.c
+linux/i2c-dev.h
+-
+sys/ioctl.h
+-
+unistd.h
+-
+fcntl.h
+-
+stdio.h
+-
+stdlib.h
+-
+i2c.h
+/home/analog/linux-userspace-examples/i2c_example_linux/src/i2c.h
+
+/home/analog/linux-userspace-examples/i2c_example_linux/src/i2c.h
+stdint.h
+-
+
+/home/analog/linux-userspace-examples/i2c_example_linux/src/main.c
+stdio.h
+-
+unistd.h
+-
+i2c.h
+/home/analog/linux-userspace-examples/i2c_example_linux/src/i2c.h
+

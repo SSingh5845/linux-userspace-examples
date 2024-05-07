@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/I2C_userspace.dir/main.c.o CMakeFiles/I2C_userspace.dir/i2c.c.o  -o I2C_userspace 

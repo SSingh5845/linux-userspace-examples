@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/spi-userspace.dir/main.c.o CMakeFiles/spi-userspace.dir/spi.c.o  -o spi-userspace 

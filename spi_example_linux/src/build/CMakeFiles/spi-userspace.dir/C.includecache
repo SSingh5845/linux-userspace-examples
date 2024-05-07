@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/analog/linux-userspace-examples/spi_example_linux/src/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+spi.h
+/home/analog/linux-userspace-examples/spi_example_linux/src/spi.h
+
+/home/analog/linux-userspace-examples/spi_example_linux/src/spi.c
+linux/spi/spidev.h
+-
+sys/ioctl.h
+-
+unistd.h
+-
+fcntl.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+spi.h
+/home/analog/linux-userspace-examples/spi_example_linux/src/spi.h
+
+/home/analog/linux-userspace-examples/spi_example_linux/src/spi.h
+stdint.h
+-
+

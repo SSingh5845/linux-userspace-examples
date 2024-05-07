@@ -1,0 +1,3 @@
+/home/analog/linux-userspace-examples/i2c_example_linux/src/build/CMakeFiles/rebuild_cache.dir
+/home/analog/linux-userspace-examples/i2c_example_linux/src/build/CMakeFiles/I2C_userspace.dir
+/home/analog/linux-userspace-examples/i2c_example_linux/src/build/CMakeFiles/edit_cache.dir
