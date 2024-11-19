@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Trigger Jenkins Job
+      uses: appleboy/jenkins-action@v0.0.1
+      with:
+        url: 'http://localhost:8080/job/target_build/'
+        user: ${{ secrets.JENKINS_USER }}
+        token: ${{ secrets.JENKINS_API_TOKEN }}
