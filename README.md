@@ -5,7 +5,7 @@ The Petalinux 2019.1 projects are posted on [Petalinux project for Linux Userspa
 The demos are provided as sources files. In order to use the demos, create in SDK a new linux application project and copy the provided demo sources into the new project sources folder, and then refresh the project sources. 
 The demos are further described as used with Digilent Pmods specific to the demonstrated communication (PmodACL2 for SPI, PmodTMP3 for I2C, PmodUSBUART for UART). Still, if these Pmods are not available, the demos can be started and the protocols can be visualized over the specific communication lines. 
 
-## SPI Demo
+## SPI Demo test
 It is implemented using spidev linux spi driver.
 It demonstrates a simple SPI communication with [PmodACL2](https://store.digilentinc.com/pmod-acl2-3-axis-mems-accelerometer/).
 The demo configures the PmodACL2 device and repeatedly retrieves acceleration values for the three axis.
