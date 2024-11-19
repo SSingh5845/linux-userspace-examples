@@ -16,7 +16,6 @@ jobs:
     - name: Trigger Jenkins Job
       uses: appleboy/jenkins-action@v0.0.1
       with:
-        url: 'http://your-jenkins-url/job/your-job-name/buildWithParameters'
+        url: 'http://your-jenkins-url/job/your-job-name'
         user: ${{ secrets.JENKINS_USER }}
         token: ${{ secrets.JENKINS_API_TOKEN }}
-        parameters: 'BRANCH_NAME=${{ github.head_ref }}'
